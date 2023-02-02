@@ -1,0 +1,20 @@
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+
+.table__caption {
+    margin: 20px;
+}
+
+.table__cell {
+    border: 2px solid rgba(0, 242, 250, 0.81);
+    padding: 20px;
+    text-align: center;
+}
+
+.table__header {
+    background-color: rgb(255, 47, 89);
+    color: white;
+}

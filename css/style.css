@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lora', serif;
+    text-align: center;
+    background-color: rgba(0, 242, 250, 0.81);
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.mainHeader {
+    color: rgb(255, 47, 89);
+}
+
+.header {
+    text-shadow: 3px 3px 3px grey;
+}
+
+.picture {
+    width: 100%;
+}
+
+.foot {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: medium;
+    margin: 8px;
+    padding: 2px;
+    box-shadow: 5px -5px 5px 0px crimson;
+}
